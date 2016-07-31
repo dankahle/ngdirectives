@@ -1,4 +1,25 @@
-<div class="col-md-12" ng-controller="MasterDetailCtrl">
+<div ng-controller="MasterDetailCtrl as md">
 
-master detail page
+    <div class="row hpad" style="padding: 0 35px;">
+        <div class="col-sm-3 heading" style="text-align:center;">Name</div>
+        <div class="col-sm-3 heading" style="text-align:center;">Birthday</div>
+        <div class="col-sm-3 heading" style="text-align:center;">Age</div>
+        <div class="col-sm-3 heading" style="text-align:center;">Created</div>
+    </div>
+
+    <div class="master-div hpad" set-height="48%" selected="md.selected" style="overflow-y:auto; padding: 20px 33px; border: 1px solid gray; position:relative; margin-bottom:20px;">
+
+        <master ng-repeat="user in md.users | orderBy:'name.last'" style="border:1px solid gray;"
+                md="md"
+                user="user"
+        ></master>
+    </div>
+    <div class="detail-div" ng-show="md.selected" style="padding: 20px 33px; border: 1px solid gray; position:relative;">
+        <span class="glyphicon glyphicon-remove" ng-click="md.selected = undefined" style="position: absolute; top: 10px; right: 10px;"></span>
+        <detail
+            md="md",
+            user="md.selected">
+        </detail>
+    </div>
+
 </div>

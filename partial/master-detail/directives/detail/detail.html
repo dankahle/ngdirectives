@@ -1,0 +1,16 @@
+<div class="row detail-directive">
+    <div class="col-sm-2">
+        <div class="detail-label">
+            Name
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <md-name class="detiail-value" name="user.name"></md-name>
+    </div>
+    <div class="col-sm-offset-1 col-sm-6">
+        <address ng-repeat="address in user.addresses"
+            md="md"
+            address="address"
+        ></address>
+    </div>
+</div>

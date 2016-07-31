@@ -1,0 +1,8 @@
+<div class="row" style="border:1px solid black; padding:15px 0; margin-bottom:20px;" ng-click="selectUser()" ng-class="{highlight:md.selected === user}">
+
+    <div class="col-sm-3 " style="text-align:center;"><md-name name="user.name"></md-name></div>
+    <div class="col-sm-3" style="text-align:center;">{{moment(user.created).format('MM/DD/YYYY')}}</div>
+    <div class="col-sm-3" style="text-align:center;">{{user.age}}</div>
+    <div class="col-sm-3" style="text-align:center;">{{moment(user.created).format('MM/DD/YYYY HH:mm:ss a')}}</div>
+
+</div>
