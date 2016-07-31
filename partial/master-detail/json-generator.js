@@ -6,7 +6,7 @@
             first: '{{firstName()}}',
             last: '{{surname()}}'
         },
-        birthDay: '{{moment(this.date(new Date(2014, 0, 1), new Date())).toISOString()}}',
+        birthday: '{{moment(this.date(new Date(2014, 0, 1), new Date())).toISOString()}}',
         age: '{{integer(30, 50)}}',
         created: '{{moment(this.date(new Date())).toISOString()}}',
         addresses: [{

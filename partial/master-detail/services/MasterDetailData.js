@@ -25,7 +25,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.379Z",
                 "age": 35,
-                "birthDay": "2014-10-01T09:19:34.028Z",
+                "birthday": "2014-10-01T09:19:34.028Z",
                 "name": {
                     "last": "Parrish",
                     "first": "Evans"
@@ -50,7 +50,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.400Z",
                 "age": 31,
-                "birthDay": "2016-01-14T12:26:57.677Z",
+                "birthday": "2016-01-14T12:26:57.677Z",
                 "name": {
                     "last": "Barlow",
                     "first": "Daugherty"
@@ -87,7 +87,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.404Z",
                 "age": 50,
-                "birthDay": "2015-12-26T17:48:08.392Z",
+                "birthday": "2015-12-26T17:48:08.392Z",
                 "name": {
                     "last": "Pennington",
                     "first": "Alvarez"
@@ -106,7 +106,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.406Z",
                 "age": 46,
-                "birthDay": "2015-04-27T02:56:19.751Z",
+                "birthday": "2015-04-27T02:56:19.751Z",
                 "name": {
                     "last": "Donovan",
                     "first": "Mcleod"
@@ -137,7 +137,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.414Z",
                 "age": 32,
-                "birthDay": "2015-11-14T17:00:12.597Z",
+                "birthday": "2015-11-14T17:00:12.597Z",
                 "name": {
                     "last": "Wolf",
                     "first": "Kinney"
@@ -162,7 +162,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.430Z",
                 "age": 40,
-                "birthDay": "2015-02-15T21:25:14.339Z",
+                "birthday": "2015-02-15T21:25:14.339Z",
                 "name": {
                     "last": "Reyes",
                     "first": "Vance"
@@ -187,7 +187,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.431Z",
                 "age": 49,
-                "birthDay": "2014-10-26T18:14:19.117Z",
+                "birthday": "2014-10-26T18:14:19.117Z",
                 "name": {
                     "last": "Marsh",
                     "first": "Goldie"
@@ -212,7 +212,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.433Z",
                 "age": 47,
-                "birthDay": "2015-10-01T23:48:17.167Z",
+                "birthday": "2015-10-01T23:48:17.167Z",
                 "name": {
                     "last": "Fernandez",
                     "first": "Barr"
@@ -231,7 +231,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.441Z",
                 "age": 35,
-                "birthDay": "2014-07-11T14:59:57.878Z",
+                "birthday": "2014-07-11T14:59:57.878Z",
                 "name": {
                     "last": "Jacobson",
                     "first": "Daisy"
@@ -268,7 +268,7 @@ angular.module('ngdirectives')
                 ],
                 "created": "2016-07-31T17:11:35.444Z",
                 "age": 50,
-                "birthDay": "2016-05-22T12:05:21.934Z",
+                "birthday": "2016-05-22T12:05:21.934Z",
                 "name": {
                     "last": "Walker",
                     "first": "Rowe"

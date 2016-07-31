@@ -8,6 +8,7 @@ angular.module('ngdirectives').directive('detail', function() {
         },
         templateUrl: 'partial/master-detail/directives/detail/detail.html',
         link: function(scope, element, attrs, fn) {
+            scope.moment = moment;
         }
     };
 });
